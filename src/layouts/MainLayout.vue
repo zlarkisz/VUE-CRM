@@ -5,9 +5,9 @@
     <div v-else class="app-main-layout">
       <Navbar @click="isOpen = !isOpen" />
 
-      <Sidebar v-model="isOpen" />
+      <Sidebar v-model="isOpen" :key="locale" />
 
-      <main 
+      <main
         :class="[
           'app-content',
           {'full': !isOpen}
@@ -50,6 +50,9 @@ export default {
   computed: {
     error() {
       return this.$store.getters.error
+    },
+    locale() {
+      return this.$store.getters.info.locale
     }
   },
 

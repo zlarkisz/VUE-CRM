@@ -38,7 +38,7 @@
 
     data() {
       return {
-        currencies: ['RUB', 'USD', 'EUR']
+        currencies: ['UAH', 'USD', 'EUR']
       }
     }
   }

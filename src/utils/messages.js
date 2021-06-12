@@ -1,5 +1,5 @@
 export default {
-  'logout': 'You logout from system',
+  'logout': 'Logout',
   'login': 'Log in please to system',
   'auth/user-not-found': 'User with this email dos not exist',
   'auth/wrong-password': 'Wrong password',

@@ -55,7 +55,7 @@
 
     computed: {
       name() {
-        return this.$store.getters.info.name 
+        return this.$store.getters.info.name
       },
     },
 

@@ -2,7 +2,7 @@
   <div class="col s12 m6">
     <div>
       <div class="page-subtitle">
-        <h4>Создать</h4>
+        <h4>{{ 'Create' | localize }}</h4>
       </div>
 
       <form @submit.prevent="submitHandler">
@@ -13,12 +13,12 @@
               v-model="title"
               :class="{invalid: $v.title.$dirty && !$v.title.required}"
           >
-          <label for="name">Название</label>
+          <label for="name">{{ 'Title' | localize }}</label>
           <span
             v-if="$v.title.$dirty && !$v.title.required"
             class="helper-text invalid"
           >
-            Введите название категории
+            {{ 'Message_EnterName' | localize }}
           </span>
         </div>
 

@@ -2,23 +2,23 @@
   <div>
     <div class="page-title">
       <h3>Планирование</h3>
-      <h4>{{ info.bill | currency('EUR') }}</h4>
+      <h4>{{ info.bill | currency('UAH') }}</h4>
     </div>
 
     <Loader v-if="loading" />
 
-    <p v-else-if="!categories.length" class="center">There are no categories. 
+    <p v-else-if="!categories.length" class="center">There are no categories.
       <router-link to="/categories">Add new category</router-link>
     </p>
 
     <section v-else>
-      <div 
+      <div
         v-for="cat in categories"
         :key="cat.id"
       >
         <p>
           <strong>{{ cat.title }}</strong>
-          {{ cat.spend | currency('EUR') }} из {{ cat.limit | currency('EUR') }}
+          {{ cat.spend | currency('UAH') }} из {{ cat.limit | currency('UAH') }}
         </p>
         <div class="progress" v-tooltip="cat.tooltip">
           <div

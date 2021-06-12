@@ -1,0 +1,16 @@
+{
+  "ProfileTitle": "Profile",
+  "Name": "Name",
+  "Message_EnterName": "Enter Name",
+  "Update": "Update",
+  "Menu_Bill": "Bill",
+  "Menu_History": "History",
+  "Menu_Planning": "Planning",
+  "Menu_NewRecord": "New record",
+  "Menu_Categories": "Categories",
+  "Categories": "Categories",
+  "NoCategories": "There is no categories",
+  "Create": "Create",
+  "Title": "Title",
+  "Logout": "You logout from system"
+}

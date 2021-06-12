@@ -1,0 +1,17 @@
+
+{
+    "ProfileTitle": "Мій профіль",
+    "Name": "Ім'я",
+    "Message_EnterName": "Введіть ім'я",
+    "Update": "Оновити",
+    "Menu_Bill": "Рахунок",
+    "Menu_History": "Історія",
+    "Menu_Planning": "Планування",
+    "Menu_NewRecord": "Новий запис",
+    "Menu_Categories": "Категорія",
+    "Categories": "Категорії",
+    "NoCategories": "Категорії відсутні",
+    "Create": "Створити",
+    "Title": "Назва",
+    "Logout": " Ви вийшли з системи"
+}
